@@ -4,7 +4,7 @@ This project was made for the Geometric Modeling course dispensed by Eric Galin 
 
 ## Getting Started
 
-Project made using gkit (french documentation abd how to install found [here](https://perso.univ-lyon1.fr/jean-claude.iehl/Public/educ/M1IMAGE/html/index.html)).
+Project made using gkit (french documentation and how to install found [here](https://perso.univ-lyon1.fr/jean-claude.iehl/Public/educ/M1IMAGE/html/index.html)).
 
 
 ### How to Compile
