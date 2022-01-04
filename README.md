@@ -15,7 +15,7 @@ Once downloaded, install premake4 or 5, go to this project's root folder and use
 
 ##### Windows (for visual studio 2019)
 
-Go to the extern/visual/bin folder and copy the bin folder to the project's root folder.
+Go to the extern/visual folder and copy the bin folder to the project's root folder.
 
 Then open the powershell, go to the project's root folder and execute the ```./extern/premake5.exe --file=./premake4.lua vs2019``` command.
 
