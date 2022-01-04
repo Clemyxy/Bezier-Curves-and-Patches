@@ -1,6 +1,6 @@
 # Bezier Curves and Splines
 
-This project was made for the Geometric Modeling course dispensed by Eric Galin during my second year of Master at Université Lyon 1.
+This project was made for the Geometric Modeling course dispensed by Eric Galin during my second year of Master at UniversitÃ© Lyon 1.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ Once downloaded, install premake4 or 5, go to this project's root folder and use
 
 Go to the extern/visual/bin folder and copy the bin folder to the project's root folder.
 
-Then open the powershell, go to the project's root folder and execute the ```./extern/premake5 --file=./premake4.lua vs2019``` command.
+Then open the powershell, go to the project's root folder and execute the ```./extern/premake5.exe --file=./premake4.lua vs2019``` command.
 
 
 ### How to use
@@ -27,10 +27,22 @@ This program isn't user friendly yet, you can execute simply and look at the cur
 ### What I did
 
 * Implemented Bezier curves.
-* Implemented Surface of Revolution generation following a Bezier curve on the Y axis.
-* Implemented Bezier patches (Using both Casteljau's and the analytical methodology).
-* Implemented local and global Tapering.
-* Implemented local and global Twisting.
+* Implemented Surface of Revolution generation following a Bezier curve on the Y axis:
+
+![SOR](https://user-images.githubusercontent.com/50468590/148090663-9d37dda9-a43e-46ad-9427-684b227630c1.png)
+* Implemented Bezier patches (Using both Casteljau's and the analytical methodology):
+ 
+![BPatch](https://user-images.githubusercontent.com/50468590/148090580-129c3c85-43f9-4eca-af5a-930ed91f58a0.png)
+* Implemented global and local tapering:
+  
+![Taper](https://user-images.githubusercontent.com/50468590/148090705-53363273-ce72-442c-b6b2-143041717a2c.png)
+![LocalTaper](https://user-images.githubusercontent.com/50468590/148091515-606ac0a5-9c7f-4292-94cf-280397543c31.png)
+
+* Implemented global and local twisting:
+
+![Twist](https://user-images.githubusercontent.com/50468590/148090850-74007bfb-5827-4be8-8449-4213374ef8a9.png)
+![LocalTwist](https://user-images.githubusercontent.com/50468590/148091578-7ff5395d-8eee-4bc7-864e-01e1be7df7fc.png)
+
 
 ### TODO:
 
