@@ -1,0 +1,12 @@
+*.make
+Makefile
+bin/
+!bin/*.dll
+obj/
+build/
+!extern/visual/bin/
+.vs
+
+.idea/
+cmake-build-debug/
+CMakeLists.txt
